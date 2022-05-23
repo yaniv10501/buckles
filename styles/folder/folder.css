@@ -1,0 +1,29 @@
+.folder {
+  width: 100%;
+  display: flex;
+}
+
+.folder__text {
+  color: aqua;
+  margin: 0;
+  padding: 10px;
+}
+
+.folder__header {
+  background-color: transparent;
+}
+
+.folder__body {
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  opacity: 0;
+  max-height: 0;
+  transition: max-height 1s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+  overflow: hidden;
+}
+
+.folder__body_unfolded {
+  opacity: 1;
+}

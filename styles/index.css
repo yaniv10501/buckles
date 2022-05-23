@@ -1,0 +1,35 @@
+@import url(./common/common.css);
+@import url(./layouts/layouts.css);
+@import url(./spacing/spacing.css);
+@import url(./slider/slider.css);
+@import url(./folder/folder.css);
+@import url(./menu/menu.css);
+@import url(./no-scroll-bar/no-scroll-bar.css);
+
+:root {
+    /**
+  * Set font-size to affect spacing
+  * Spacing calculation:
+  * xl - 2.5 * font-size
+  * l - 2 * font-size
+  * md - 1 * font-size
+  * s - 0.5 * font-size
+  * xs - 0.25 * font-size
+  */
+  font-size: 20px;
+  /* Colors */
+  --backgroundColor: black;
+  --backgroundColor2: #bfbfbf;
+  --backgroundColor3: #f6f9f9;
+  --color-main: #ffb627;
+  --color-accent: #61ce70;
+  --color-primary: #6ec1e4;
+  --nav-menu-button: rgba(110, 193, 228, 0.8);
+  --nav-menu: #0b0a0a;
+  --color-secondary: #54595f;
+  --color-text: #7a7a7a;
+  --color-alt-text: #3a3a3a;
+  --color-link: #0671b3;
+  --successColor: #3fa34d;
+  --failColor: #f50010;
+}

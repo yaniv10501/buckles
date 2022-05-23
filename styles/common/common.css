@@ -1,0 +1,56 @@
+.button {
+  border: none;
+  background-color: var(--backgroundColor);
+  color: var(--backgroundColor3);
+  box-shadow: 0 0 3px 1px var(--backgroundColor3);
+  font-weight: 700;
+  font-size: 32px;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: var(--backgroundColor2);
+}
+
+.button.dark {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--backgroundColor2);
+  box-shadow: 0 0 3px 1px var(--backgroundColor2);
+}
+
+.button.dark:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--color-main);
+}
+
+.button__text {
+  margin: 20px 5px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.button.none {
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: none;
+  width: 100%;
+  display: flex;
+}
+
+/* width */
+.feed__scroll-box::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.feed__scroll-box::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.feed__scroll-box::-webkit-scrollbar-thumb {
+  background: var(--backgroundColor2);
+  border-radius: 10px;
+}

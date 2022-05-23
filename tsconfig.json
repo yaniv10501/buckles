@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "jsx": "react",
+    "noImplicitAny": false
+  },
+  "include": ["src", "custom.d.ts"]
+}

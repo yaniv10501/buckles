@@ -1,0 +1,72 @@
+{
+  "name": "buckles",
+  "version": "1.0.0-alpha.2",
+  "description": "Layouts, Components and Utilities for responsive web design",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/esm/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node tools/build.js",
+    "build-types": "yarn tsc -d --emitDeclarationOnly --outDir types",
+    "toggleDev": "mv _node_modules node_modules | mv node_modules _node_modules"
+  },
+  "author": "Yaniv Schweitzer",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-arrow-functions": "^7.17.12",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/register": "^7.17.7",
+    "@react-bootstrap/babel-preset": "^2.1.0",
+    "@react-bootstrap/eslint-config": "^2.0.0",
+    "@types/react-dom": "^16.9.16",
+    "autoprefixer": "^10.4.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-inline-svg": "^1.2.0",
+    "babel-plugin-istanbul": "^6.1.1",
+    "chalk": "^4.1.2",
+    "cherry-pick": "^0.5.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "execa": "^5.1.1",
+    "fs-extra": "^10.1.0",
+    "postcss": "^8.4.14",
+    "postcss-css-variables": "^0.18.0",
+    "postcss-import": "^14.1.0",
+    "postcss-loader": "^7.0.0",
+    "prettier": "^2.6.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-responsive": "^9.0.0-beta.8",
+    "smoothscroll-polyfill": "^0.4.4",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1"
+  },
+  "peerDependencies": {
+    "@types/react": ">=16.14.0",
+    "react": ">=16.14.0",
+    "react-dom": ">=16.14.0",
+    "react-responsive": "^9.0.0-beta.8",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1"
+  }
+}
